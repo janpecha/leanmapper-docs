@@ -1,0 +1,22 @@
+
+Rozšíření
+#########
+
+.[perex]
+Rozšíření a knihovny pro LeanMapper.
+
+
+leanmapper-query <small>mbohuslavek</small>
+================
+
+* "Příklad na fóru":http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p116127, "GitHub":https://github.com/mbohuslavek/LeanMapperQuery
+* Packagist: "mbohuslavek/leanmapper-query":https://packagist.org/packages/mbohuslavek/leanmapper-query
+
+
+
+leanmapper-extension <small>joseki</small>
+====================
+
+* "GitHub":https://github.com/Joseki/LeanMapper-extension
+* Packagist: "joseki/leanmapper-extension":https://packagist.org/packages/joseki/leanmapper-extension
+

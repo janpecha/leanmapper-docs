@@ -1,0 +1,241 @@
+
+@import 'minitypro.css';
+
+body {
+	padding: 0;
+	background: #f9f9f9;
+	color: #222;
+}
+
+#content,
+#menu {
+	padding: 2em;
+}
+
+#content {
+	float: right;
+	width: 80%;
+	padding-left: 4em;
+}
+
+#menu {
+	background: #333;
+	width: 20%;
+	padding-left: 2em;
+	padding-bottom: 3em;
+}
+
+#menu a {
+	display: block;
+	padding: 0.4em 1em;
+	text-decoration: none;
+	color: silver;
+	margin-bottom: 0.2em;
+	border-radius: 0.2em;
+	/*overflow: hidden;*/
+}
+
+#menu a.tuto,
+#menu a:hover {
+	background: #444;
+	color: #f8f8f8;
+}
+
+#menu a.home {
+	font-size: 2em;
+	text-decoration: none;
+	color: #f8f8f8;
+	font-family: Georgia, serif;
+	margin-top: 1em;
+	margin-bottom: 3em;
+	letter-spacing: 0.1em;
+	padding: 0;
+	padding-left: 0.5em;
+	color: gray;
+	border-radius: 0.1em;
+}
+
+#menu .home:hover {
+	color: #f8f8f8;
+}
+
+.home span {
+	color: gray;
+}
+
+.home small {
+	font-family: Arial, sans-serif;
+	display: block;
+	font-size: 50%;
+	letter-spacing: 1px;
+}
+
+.home:hover small {
+	color: gray;
+}
+
+h1,
+h2 {
+	padding-bottom: 0.1em;
+	padding-right: 0.2em;
+	margin-bottom: 0.4em;
+	border-bottom: 1px solid #ccc;
+}
+
+h1 small,
+h2 small,
+h3 small {
+	font-weight: normal;
+	color: gray;
+}
+
+h2, h3 {
+	margin-top: 1.5em;
+}
+
+h2 {
+	font-size: 1.9em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+pre {
+	background: #D2E2EF;
+	border: 1px solid #C0DBF0;
+	border-radius: 0.2em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: visible;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.perex {
+	color: #777;
+	font-style: italic;
+}
+
+.current-release {
+	background: #FBF19A;
+	border-radius: 0.2em;
+	padding: 0.2em 0.5em;
+}
+
+#content p,
+#content table,
+#content ul,
+#content ol,
+#content pre {
+	font-size: 110%;
+}
+
+#content ul ul,
+#content ol ul,
+#content ol ol,
+#content ul ol {
+	font-size: inherit;
+}
+
+@media only screen and (max-width: 86em) {
+	#menu {
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+}
+
+@media only screen and (max-width: 76em) {
+	#menu a.home {
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 66em) {
+	#menu a.home {
+		font-size: 1.6em;
+	}
+
+	a.home small {
+		letter-spacing: 0;
+	}
+
+	#content {
+		padding-left: 3em;
+	}
+}
+
+@media only screen and (max-width: 60em) {
+	#menu {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#menu a.home {
+		font-size: 1.4em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#menu a {
+		border-radius: 0;
+	}
+
+	a.home small {
+		font-size: 60%;
+	}
+
+	#content {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+@media only screen and (max-width: 53em) {
+	#menu {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#menu a.home span {
+		display: block;
+	}
+
+	#menu a.home small {
+		font-size: 65%;
+	}
+
+	#content {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+@media only screen and (max-width: 47em) {
+	#menu, #content {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	#menu {
+		margin-top: 4em;
+		padding: 1em;
+	}
+
+	#menu a.home {
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		margin-bottom: 1em;
+		display: block;
+	}
+
+	#menu a.home span {
+		display: inline;
+	}
+
+	#menu a {
+		display: inline;
+		display: inline-block;
+		border-radius: 0.2em;
+	}
+}
+

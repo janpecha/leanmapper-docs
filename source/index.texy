@@ -1,0 +1,23 @@
+
+LeanMapper Docs
+###############
+
+.[perex]
+**Neoficiální dokumentace**.
+
+
+LeanMapper 2.1
+==============
+
+* "Entity":@2.1/entity/
+* "Repozitáře":@2.1/repository/
+* "Filtry":@2.1/filters/
+
+
+Obecné
+======
+
+* "Postupy a řešení":@postupy-reseni/
+* "Rozšíření":@rozsireni/ a knihovny pro LeanMapper
+* "Download  a API dokumentace":@download.html
+

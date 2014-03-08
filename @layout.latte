@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" n:href="webdata/styles.css" type="text/css">
+
+	<title>{block title|striptags|strip|trim}{/block} | LeanMapper Docs - neoficiální dokumentace</title>
+</head>
+<body>
+	<div id="wrapper" class="row">
+		<div id="content" class="column">
+			{include #content}
+		</div>
+
+		<div id="menu" class="column">
+			<a n:href="/" class="home" rel="home">
+				<span>Lean</span>Mapper
+				<small>neoficiální dokumentace</small>
+			</a>
+			<a n:href="/" n:class="$webgen->isFileCurrent('index.texy') ? tuto">Homepage</a>
+			<a n:href="2.1/entity/" n:class="$webgen->isFileCurrent('2.1/entity/**') ? tuto">Entity</a>
+			<a n:href="2.1/repository/" n:class="$webgen->isFileCurrent('2.1/repository/**') ? tuto">Repozitáře</a>
+			<a n:href="2.1/filters/" n:class="$webgen->isFileCurrent('2.1/filters/**') ? tuto">Filtry</a>
+			<a n:href="postupy-reseni/" n:class="$webgen->isFileCurrent('postupy-reseni/**') ? tuto">Postupy a řešení</a>
+			<a n:href="rozsireni/" n:class="$webgen->isFileCurrent('rozsireni/**') ? tuto">Rozšíření</a>
+			<a n:href="download.html" n:class="$webgen->isFileCurrent('download.texy') ? tuto">Download</a>
+		</div>
+	</div>
+</body>
+</html>

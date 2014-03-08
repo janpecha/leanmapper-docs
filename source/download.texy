@@ -1,0 +1,46 @@
+
+Download
+########
+
+Zdrojové kódy naleznete na "GitHubu":https://github.com/Tharos/LeanMapper.
+
+* "Oficiální web":http://leanmapper.com/
+* "Podpořte autora!":http://leanmapper.com/donate
+
+Verze
+=====
+
+* "Aktuální vývojová verze":https://github.com/Tharos/LeanMapper/archive/develop.zip
+
+* "LeanMapper 2.1.0":https://github.com/Tharos/LeanMapper/releases/tag/v2.1.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.1.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.1.0.tar.gz      .[current-release]
+
+* "LeanMapper 2.0.1":https://github.com/Tharos/LeanMapper/releases/tag/v2.0.1 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.0.1.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.0.1.tar.gz
+
+* "LeanMapper 2.0.0":https://github.com/Tharos/LeanMapper/releases/tag/v2.0.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.0.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.0.0.tar.gz
+
+* "LeanMapper 1.4.0":https://github.com/Tharos/LeanMapper/releases/tag/v1.4.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v1.4.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v1.4.0.tar.gz
+
+* "LeanMapper 1.3.1":https://github.com/Tharos/LeanMapper/releases/tag/v1.3.1 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v1.3.1.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v1.3.1.tar.gz
+
+* "LeanMapper 1.3.0":https://github.com/Tharos/LeanMapper/releases/tag/v1.3.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v1.3.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v1.3.0.tar.gz
+
+
+Composer
+========
+
+LeanMapper je také dostupný přes "Packagist":https://packagist.org/packages/tharos/leanmapper.
+
+/--- code
+composer require tharos/leanmapper
+\---
+
+
+API dokumentace
+===============
+
+* "Verze 2.0.1":http://www.leanmapper.com/api/v2.0.1/
+* "Verze 2.0.0":http://www.leanmapper.com/api/v2.0.0/
+* "Verze 1.4.0":http://www.leanmapper.com/api/v1.4.0/
+* "Verze 1.3.1":http://www.leanmapper.com/api/v1.3.1/
+* "Verze 1.3.0":http://www.leanmapper.com/api/v1.3.0/
+

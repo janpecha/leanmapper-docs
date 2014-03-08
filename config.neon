@@ -1,0 +1,8 @@
+
+input:
+	dir: source
+	copy: yes
+
+output:
+	purge: yes
+
