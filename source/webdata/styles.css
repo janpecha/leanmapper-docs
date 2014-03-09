@@ -1,5 +1,6 @@
 
 @import 'minitypro.css';
+@import 'fshl.css';
 
 body {
 	padding: 0;
@@ -102,7 +103,7 @@ h3 {
 }
 
 pre {
-	background: #D2E2EF;
+	background: #EDF8FF; /* #D2E2EF */
 	border: 1px solid #C0DBF0;
 	border-radius: 0.2em;
 	margin-bottom: 1em;
@@ -110,6 +111,10 @@ pre {
 	overflow: visible;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+}
+
+pre .php-comment {
+	background: none;
 }
 
 .perex {
