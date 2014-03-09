@@ -20,3 +20,11 @@ leanmapper-extension <small>joseki</small>
 * "GitHub":https://github.com/Joseki/LeanMapper-extension
 * Packagist: "joseki/leanmapper-extension":https://packagist.org/packages/joseki/leanmapper-extension
 
+
+SchemaGenerator <small>peter.z</small>
+===============
+
+Generování tabulek v databázi na základě entit. Využívá Doctrine DBAL.
+
+* "Zdrojový kód":https://gist.github.com/anonymous/8782935, "Příklad":https://gist.github.com/anonymous/8782990, "Informace na fóru":http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=20#p118962
+
