@@ -1,0 +1,56 @@
+
+Více mapperů
+############
+
+-> "Postupy a řešení":@postupy-reseni/
+
+Z logiky věci není dobré nutit LeanMapper, aby používal více mapperů. Lepším řešením je vytvořit něco jako *"dynamický mapper":http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118625*. Jak by takový jednoduchý dynamický mapper mohl vypadat ukazuje Tharos:
+
+<?php
+/**
+ * @author Tharos
+ * @link   http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118625
+ */
+class DynamicMapper extends DefaultMapper
+{
+    private $dictionary = array();
+
+    public function registerModule($modulePrefix, array $names)
+    {
+        foreach ($names as $name) {
+            $this->dictionary[$modulePrefix . '_' . $name] =
+                'Addon\\' . ucfirst($modulePrefix) . '\\Entity\\' . ucfirst($name);
+        }
+    }
+
+    public function getEntityClass($table, Row $row = null)
+    {
+        if (isset($this->dictionary[$table])) {
+            return $this->dictionary[$table];
+        }
+        return parent::getEntityClass($table, $row);
+    }
+}
+
+$mapper = new DynamicMapper;
+
+$mapper->registerModule('news', array('item', 'comment', 'rating'));
+$mapper->registerModule('content', array('page', 'text'));
+
+$entityClass = $mapper->getEntityClass('news_item');
+// $entityClass === 'Addon\News\Entity\Item'
+$entityClass = $mapper->getEntityClass('news_rating');
+// $entityClass === 'Addon\News\Entity\Rating'
+$entityClass = $mapper->getEntityClass('content_page');
+// $entityClass === 'Addon\Content\Entity\Page'
+?>
+
+Odpovídají příspěvky na fóru:
+
+* blur | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118292
+* Tharos | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118580
+* Filip111 | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118617
+* Tharos - ukázka dynamického mapperu | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=19#p118625		.[current-release]
+* Šaman | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=20#p118635		.[current-release]
+* Tharos | http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=20#p118643		.[current-release]
+
