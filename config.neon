@@ -5,6 +5,7 @@ input:
 
 output:
 	purge: yes
+	dir: web
 
 extensions:
 	syntaxHighlighter: on
