@@ -38,6 +38,7 @@ composer require tharos/leanmapper
 API dokumentace
 ===============
 
+* "Verze 2.1.0":http://www.leanmapper.com/api/v2.1.0/
 * "Verze 2.0.1":http://www.leanmapper.com/api/v2.0.1/
 * "Verze 2.0.0":http://www.leanmapper.com/api/v2.0.0/
 * "Verze 1.4.0":http://www.leanmapper.com/api/v1.4.0/
