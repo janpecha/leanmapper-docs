@@ -12,7 +12,9 @@ Verze
 
 * "Aktuální vývojová verze":https://github.com/Tharos/LeanMapper/archive/develop.zip
 
-* "LeanMapper 2.1.0":https://github.com/Tharos/LeanMapper/releases/tag/v2.1.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.1.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.1.0.tar.gz      .[current-release]
+* "LeanMapper 2.2.0":https://github.com/Tharos/LeanMapper/releases/tag/v2.2.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.2.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.2.0.tar.gz, "informace o vydání":http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=22#p124335      .[current-release]
+
+* "LeanMapper 2.1.0":https://github.com/Tharos/LeanMapper/releases/tag/v2.1.0 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.1.0.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.1.0.tar.gz
 
 * "LeanMapper 2.0.1":https://github.com/Tharos/LeanMapper/releases/tag/v2.0.1 ve formátu "zip":https://github.com/Tharos/LeanMapper/archive/v2.0.1.zip a "tar.gz":https://github.com/Tharos/LeanMapper/archive/v2.0.1.tar.gz
 
@@ -38,6 +40,7 @@ composer require tharos/leanmapper
 API dokumentace
 ===============
 
+* "Verze 2.2.0":http://www.leanmapper.com/api/v2.2.0/
 * "Verze 2.1.0":http://www.leanmapper.com/api/v2.1.0/
 * "Verze 2.0.1":http://www.leanmapper.com/api/v2.0.1/
 * "Verze 2.0.0":http://www.leanmapper.com/api/v2.0.0/
