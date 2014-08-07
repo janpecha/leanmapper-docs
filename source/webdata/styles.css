@@ -122,7 +122,8 @@ pre .php-comment {
 	font-style: italic;
 }
 
-.current-release {
+.current-release,
+.important-info {
 	background: #FBF19A;
 	border-radius: 0.2em;
 	padding: 0.2em 0.5em;
@@ -141,6 +142,24 @@ pre .php-comment {
 #content ol ol,
 #content ul ol {
 	font-size: inherit;
+}
+
+.wiki-box {
+	font-size: 90%;
+	margin: 2em 0 1em;
+	/*border-top: 1px solid #CCCCCC;*/
+	padding: 0.4em 1em;
+	text-align: right;
+	/*display: inline-block;*/
+	/*background: #eee;*/
+	position: absolute;
+	right: 1em;
+	top: -1em;
+}
+
+.wiki-box a {
+	display: inline-block;
+	margin: 0 0.4em;
 }
 
 @media only screen and (max-width: 86em) {
@@ -241,6 +260,17 @@ pre .php-comment {
 		display: inline;
 		display: inline-block;
 		border-radius: 0.2em;
+	}
+
+	.wiki-box {
+		text-align: center;
+		position: static;
+	}
+
+	.wiki-box a {
+		background: #e8e8e8;
+		border-radius: 0.2em;
+		padding: 0.4em 1em;
 	}
 }
 

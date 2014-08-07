@@ -12,6 +12,16 @@
 	<div id="wrapper" class="row">
 		<div id="content" class="column">
 			{include #content}
+
+			<div class="wiki-box">
+				{var $githubRepoUrl = 'https://github.com/janpecha/leanmapper-docs'}
+				{var $githubBranch = 'master'}
+				{var $githubDirectory = basename($webgen->sourceDirectory)}
+				{var $githubFileUrl = "$githubBranch/$githubDirectory/{$webgen->currentFile}"}
+				<a href="{$githubRepoUrl}/edit/{$githubFileUrl}">Editovat</a>
+				<a href="{$githubRepoUrl}/blob/{$githubFileUrl}">Zdroj</a>
+				<a href="{$githubRepoUrl}/commits/{$githubFileUrl}">Historie úprav</a>
+			</div>
 		</div>
 
 		<div id="menu" class="column">
