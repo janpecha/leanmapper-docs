@@ -21,6 +21,15 @@ leanmapper-extension <small>joseki</small>
 * Packagist: "joseki/leanmapper-extension":https://packagist.org/packages/joseki/leanmapper-extension
 
 
+
+leanmodel <small>Šaman</small>
+=========
+
+* "GitHub":https://github.com/miroslav-mrazek/lean-model
+* Packagist: "saman/leanmodel":https://packagist.org/packages/saman/leanmodel
+
+
+
 SchemaGenerator <small>peter.z</small>
 ===============
 
