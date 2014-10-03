@@ -21,6 +21,14 @@ leanmapper-extension <small>joseki</small>
 * Packagist: "joseki/leanmapper-extension":https://packagist.org/packages/joseki/leanmapper-extension
 
 
+leanmapper-extension <small>janpecha</small>
+====================
+
+Integrace LeanMapper do Nette 2.2.
+
+* "GitHub":https://github.com/janpecha/leanmapper-extension
+* Packagist: "janpecha/leanmapper-extension":https://packagist.org/packages/janpecha/leanmapper-extension
+
 
 leanmodel <small>Šaman</small>
 =========
