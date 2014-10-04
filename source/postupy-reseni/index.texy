@@ -6,6 +6,7 @@ Obecné
 ======
 
 * "Více mapperů":@postupy-reseni/vice-mapperu.html
+* "Dynamický mapper":@postupy-reseni/vice-mapperu.html
 * "Získání hlavního (reprezentačního) obrázku":http://forum.nette.org/cs/14592-lean-mapper-tenke-orm-nad-dibi?p=21#p121283
 * "Integrace do aplikace":https://github.com/Tharos/LeanMapper/wiki/integrace-lean-mapperu-do-aplikace
 * "Integrace do Nette":https://github.com/Tharos/LeanMapper/wiki/integrace-lean-mapperu-do-aplikace#integrace-do-nette-aplikace
